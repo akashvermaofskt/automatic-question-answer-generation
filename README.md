@@ -2,7 +2,7 @@
 
 ## How to set up the project environemnt
 
-- [Clone](https://github.com/akashvermaofskt/AQG.git) this repo in your local machine.
+- [Clone](https://github.com/akashvermaofskt/automatic-question-answer-generation) this repo in your local machine.
 - [Download & Install](https://www.python.org/downloads/) python3.
 - [Download & Install](https://nodejs.org/en/download/) Node.
 - cd ⁨`automatic-question-answer-generation`
