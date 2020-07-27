@@ -1,4 +1,4 @@
-# Automatic Question Generator using React
+# Automatic Question Generator using NLP, React and Flask
 
 ## How to set up the project environemnt
 
@@ -10,12 +10,15 @@
 ### Setup and run backend
 
 - setup [virtual environment](https://docs.python.org/3/library/venv.html) in it. Command: `python3 -m venv venv`
+- activate virtual env `source venv/bin/activate` for linux/mac
 - Install all required packages mentioned in `requirements.txt`. Command: `pip3 install -r requirements.txt`
 - Run command `python3 api.py` in your terminal
 - Backend server will run on http://localhost:5000/
+- leave this terminal open
 
 ### Setup and run frontend
 
+- in new terminal run these command
 - run command `npm install` to install node packages
 - run command `npm start` in your terminal to start the frontend server
 - Goto http://localhost:3000/ from your browser and use the app.
