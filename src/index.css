@@ -1,0 +1,87 @@
+html {
+  background: #000000;
+}
+#root {
+  background: #000000;
+}
+
+#main {
+  background: #d5f5e3;
+  font-family: "Roboto", sans-serif;
+}
+
+#main h1 {
+  color: #000000;
+  text-align: center;
+  height: 100%;
+}
+
+#result h1 {
+  color: #fff;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+form .field {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+form #lb1,
+textarea {
+  grid-column: 1 / span 2;
+  font-size: 20px;
+  width: 98.5%;
+}
+
+form textarea {
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+  height: 40vh;
+}
+
+form #lb2,
+input {
+  margin-right: 10px;
+  height: auto;
+  font-size: 20px;
+}
+
+form input {
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+  color: #fff;
+  font-size: 2em;
+  background: #0e6251;
+  border: 1px solid #000000;
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  grid-column: 1 / span 2;
+  width: 99%;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Result CSS */
+
+#result {
+  background: #0e6251;
+  box-shadow: -2px -3px 5px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  min-height: 75vh;
+  max-height: 75vh;
+  overflow: auto;
+}
+
+#result ol li {
+  margin: 10px 10px 10px 10px;
+}
+
+#result ul li {
+  margin: 0;
+}
